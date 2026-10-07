@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" viewBox="0 0 200 120">
+  <!-- Diode triangle (anode on left pointing to cathode on right) -->
+  <polygon points="40,60 100,36 100,84" fill="#000"/>
+  <!-- Cathode bar -->
+  <line x1="100" y1="36" x2="150" y2="36" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <line x1="100" y1="84" x2="150" y2="84" stroke="#000" stroke-width="6" stroke-linecap="round" opacity="0"/>
+  <!-- Connection lines -->
+  <line x1="10" y1="60" x2="40" y2="60" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <line x1="150" y1="36" x2="180" y2="36" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <!-- Small gap vertical to show diode bar centered -->
+  <line x1="150" y1="24" x2="150" y2="48" stroke="#000" stroke-width="2"/>
+  <!-- Label -->
+  <text x="160" y="20" font-family="Arial, Helvetica, sans-serif" font-size="14">D1</text>
+  <!-- Connection point markers (optional) -->
+  <circle cx="10" cy="60" r="3" fill="#000"/>
+  <circle cx="180" cy="36" r="3" fill="#000"/>
+</svg>
